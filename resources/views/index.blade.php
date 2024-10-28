@@ -27,7 +27,10 @@
             <img src="path_to_profile_image.jpg" alt="Foto Profil" class="w-32 h-32 rounded-full mb-4">
             <p class="text-gray-700">Halo! Nama saya [Nama Anda], dan saya adalah pemilik dari Toko Kue Kami. Saya memulai usaha ini karena kecintaan saya terhadap pembuatan kue dan ingin berbagi kelezatan kue dengan Anda semua. Dengan pengalaman bertahun-tahun dalam membuat kue, saya memastikan setiap produk yang saya buat adalah hasil yang terbaik dan penuh perhatian.</p>
             <p class="text-gray-700 mt-4">Di Toko Kue Kami, kami menawarkan berbagai macam kue yang lezat dan berkualitas tinggi. Kami juga menerima pesanan khusus untuk berbagai acara. Terima kasih telah mengunjungi toko kami!</p>
+            <a href="{{ route('about') }}">about</a>
+        <a href="{{ route('login') }}">login</a>
         </section>
+    
 
         <section class="mb-12">
             <h2 class="text-2xl font-bold mb-6">Produk Kami</h2>
